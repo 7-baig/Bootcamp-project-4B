@@ -2,45 +2,52 @@
     display: flex;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
+    height: 80%;
+    
 }
 .left {
     display: flex;
-    flex: 1 1 50%;
+    width: 50%;
 }
 .left img {
     /* height: 500px; */
     width: 100%;
-    height: 100%;
+    min-width: 360px;
 }
 .right {
-    flex: 1 0 50%;
+    width: 50%;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .right h1 {
     width: 60%;
-    font-size: 2.9282576866764276vw;
-    font-weight: lighter;
     margin-left: 20px;
+    font-size: 45px;
+    color: #6c63ff;
 }
 
 /* media queries */
 @media screen and (max-width: 900px) {
     .container {
-        padding: 40px 0px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }   
     .left {
+        min-width: 300px;
+        width: 100%;
+        height: 50%;
         justify-content: center;
     }
-    .left img {
-        width: 50%;
-    }
+
     .right {
+        height: 50%;
         justify-content: center;
-        width: 55%;
+        /* align-items: flex-start; */
+        width: 100%;
+    }
+    .right h1 {
+        width: 50%;
+        font-size: 30px;
     }
 }

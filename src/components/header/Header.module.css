@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
+    height: 20%;
 }
 .left {
     flex: 1 1 auto;
@@ -25,6 +26,7 @@
     font-weight: lighter;
     margin-left: 10px;
     letter-spacing: 1px;
+    color: #6c63ff;
 } 
 
 /* RIGHT */
@@ -39,9 +41,14 @@
     justify-content: space-around;
     list-style: none;
     display: flex;
+    color: #363636;
 }
 .right ul li {
     margin: 0px 10px;
+    cursor: pointer;
+}
+.right ul li:hover {
+    color: #6c63ff;
 }
 /* menu icon */
 .menuIcon {
@@ -60,6 +67,7 @@
     width: 280px;
     background: rgb(0, 58, 120);
     transform: translateX(280px);
+    z-index: 1;
 }
 .menu ul {
     position: relative;
@@ -76,7 +84,7 @@
 }
 .crossIcon {
     height: 25px;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 
@@ -106,7 +114,7 @@
     }
     .crossIcon {
         height: 25px;
-        z-index: 1;
+        z-index: 2;
         display: none;
     }
 }

@@ -1,21 +1,21 @@
-import React, { useState, useLayoutEffect, useRef, useEffect } from 'react'
+import React from 'react'
 import './App.css'
 import useWebAnimations from "@wellyshen/use-web-animations";
-import Header from './components/header/Header';
-import MainSection from './components/MainSection/MainSection';
+import Main from './components/Main/Main';
+import About from './components/About/About';
+import Services from './components/Services/Services';
 
 
 
 function App() {
 
-
-
   return (
 
     <div className="app">
 
-      <Header />
-      <MainSection />
+      <Main />
+      <About />
+      <Services />
       
     </div>
 
