@@ -20,6 +20,13 @@
     align-items: center;
     justify-content: center;
 }
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 5px solid #6c63ff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 .right h1 {
     font-size: 45px;
     color: #6c63ff;

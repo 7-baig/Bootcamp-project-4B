@@ -23,7 +23,7 @@ const Header = () => {
             <div className={styles.left}>
                 <div>
                     <img src={logo} alt="logo"/>
-                    <h3>Zapare Technologies</h3>
+                    <h3>Curved Technologies</h3>
                 </div>
             </div>
 {/* right */}

@@ -1,15 +1,15 @@
 .container {
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans', sans-serif;
     height: 80%;
     
 }
 .left {
     display: flex;
     width: 50%;
+    overflow: hidden;
 }
-.left img {
+.left svg {
     /* height: 500px; */
     width: 100%;
     min-width: 360px;
@@ -22,9 +22,9 @@
 }
 .right h1 {
     width: 60%;
-    margin-left: 20px;
     font-size: 45px;
     color: #6c63ff;
+    margin-left: 20px;
 }
 
 /* media queries */
