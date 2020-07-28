@@ -23,9 +23,7 @@ const Solutions = () => {
         <div className={styles.container}>
 
             <div className={styles.top}>
-                <Bounce right>
                     <div ref={circle} className={styles.circle}></div>
-                </Bounce>
                 <Bounce clear>
                     <h1>Economical,<br/>
                     dynamic and managed business solutions.</h1>

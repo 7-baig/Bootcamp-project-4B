@@ -1,0 +1,117 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #6c63ff;
+    color: #f7f7f7;
+}
+.top {
+    height: 60%;
+    width: 100%;
+    border-bottom: 1px solid #f7f7f788;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top img {
+    height: 50px;
+}
+.top h1 {
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.top h3 {
+    margin: 10px 0px;
+    width: 45%;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+.top button {
+    margin: 20px 0px;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 18px;
+    background: none;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 3px solid #363636;
+    cursor: pointer;
+}
+.top button:hover {
+    color: #363636;
+    border-bottom: 3px solid #f7f7f7;
+}
+
+/* Bottom Section */
+
+.bottom {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom ul {
+    margin: 0;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0px;
+    letter-spacing: 0.1em;
+}
+.bottom .socialMedia {
+    margin: 20px 0px;
+    letter-spacing: 0.1em;
+}
+.bottom .socialMedia span {
+    display: flex;
+}
+
+.bottom .copyrights {
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #363636;
+    font-weight: bold;
+}
+.bottom .copyrights p {
+    letter-spacing: 0.1em;
+}
+.bottom .copyrights span {
+    display: flex;
+}
+.bottom .copyrights span a {
+    text-decoration: none;
+    color: #363636;
+}
+.bottom .copyrights span a:hover {
+    color: #f7f7f7;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+    .top h1 {
+        font-size: 30px;
+    }
+    .top h3 {
+        width: 80%;
+    }
+    .bottom ul {
+        width: 90%;
+        font-size: 12px;
+    }
+    .bottom .copyrights {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .bottom .copyrights p {
+        letter-spacing: 0em;
+        margin: 5px 0px;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../images/logo.svg'
+import logo from '../../images/logo3.svg'
 import menu from '../../images/menu.svg'
 import cross from '../../images/cross.svg'
 import styles from './Header.module.css'
